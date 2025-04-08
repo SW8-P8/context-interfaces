@@ -1,0 +1,72 @@
+@import 'tailwindcss';
+
+* {
+  @apply cursor-none!;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+@keyframes slide-up {
+  0% {
+    max-height: 0;
+    opacity: 0;
+  }
+  100% {
+    max-height: 380px;
+    opacity: 1;
+  }
+}
+
+@keyframes slide-down {
+  0% {
+    max-height: 380px;
+    opacity: 1;
+  }
+  100% {
+    max-height: 0;
+    opacity: 0;
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.slide-up {
+  overflow: hidden;
+  animation: slide-up 0.2s ease-out forwards;
+}
+
+.slide-down {
+  overflow: hidden;
+  animation: slide-down 0.2s ease-in forwards;
+}
+
+.appear {
+  overflow: hidden;
+  animation: appear 0.2s ease-in forwards;
+}
+
+@layer components {
+  .ig-btn {
+    @apply py-1 px-2 rounded-sm text-white border-1 border-white/50 hover:bg-white/40 text-sm;
+  }
+
+  .ig-btn-inverse {
+    @apply py-1 px-2 rounded-sm text-black border-1 border-black/50 hover:bg-black/40 text-sm;
+  }
+}

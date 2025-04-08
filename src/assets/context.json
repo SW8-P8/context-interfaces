@@ -1,0 +1,277 @@
+[
+    {
+        "filename": "People_238_h.jpg",
+        "description": "The aftermath of a mass shooting where numerous people lie deceased and bloodied.",
+        "brief": "Deceased people.",
+        "trggerWarnings": [
+            "Gun violence",
+            "Death"
+        ]
+    },
+    {
+        "filename": "Faces_367_h.jpg",
+        "description": "An elderly man lying deceased on the floor in a pool of blood.",
+        "brief": "A deceased person.",
+        "trggerWarnings": [
+            "Death",
+            "Blood"
+        ]
+    },
+    {
+        "filename": "People_038_h.jpg",
+        "description": "A man points a rifle at a child, who is lying on the ground.",
+        "brief": "Gun violence.",
+        "trggerWarnings": [
+            "Gun violence",
+            "Child endangerment"
+        ]
+    },
+    {
+        "filename": "People_240_h.jpg",
+        "description": "A large skin infection covers the entire torso of a child.",
+        "brief": "A skin infection.",
+        "trggerWarnings": [
+            "Infection",
+            "Medical condition"
+        ]
+    },
+    {
+        "filename": "People_208_h.jpg",
+        "description": "A bloodied and mutilated hand sticking out from underneath a cover.",
+        "brief": "A hand injury.",
+        "trggerWarnings": [
+            "Mutilation",
+            "Blood",
+            "Injury"
+        ]
+    },
+    {
+        "filename": "People_201_v.jpg",
+        "description": "The body of a man who has been hit and killed by a train.",
+        "brief": "A deceased person.",
+        "trggerWarnings": [
+            "Death",
+            "Accident"
+        ]
+    },
+    {
+        "filename": "Faces_159_h.jpg",
+        "description": "A person who is receiving treatment for severe burns on their face.",
+        "brief": "Facial burns.",
+        "trggerWarnings": [
+            "Burns",
+            "Medical treatment"
+        ]
+    },
+    {
+        "filename": "Faces_365_v.jpg",
+        "description": "A man who has lost his eyes and nose due to severe facial burns.",
+        "brief": "Facial burns.",
+        "trggerWarnings": [
+            "Burns",
+            "Disfigurement"
+        ]
+    },
+    {
+        "filename": "Objects_139_h.jpg",
+        "description": "A severed and dirty doll head lying upon a pile of twigs.",
+        "brief": "A broken toy.",
+        "trggerWarnings": [
+            "Disturbing imagery"
+        ]
+    },
+    {
+        "filename": "People_022_h.jpg",
+        "description": "An overturned, severely damaged truck and a deceased person covered by a tarp.",
+        "brief": "A deceased person.",
+        "trggerWarnings": [
+            "Accident",
+            "Death"
+        ]
+    },
+    {
+        "filename": "People_198_h.jpg",
+        "description": "A person receives treatment for a dry, swollen, and infected lower leg.",
+        "brief": "An infected foot.",
+        "trggerWarnings": [
+            "Infection",
+            "Medical condition"
+        ]
+    },
+    {
+        "filename": "Animals_074_h.jpg",
+        "description": "A sick, old, and blind dog lying on a bed in a dirty room.",
+        "brief": "Animal abuse.",
+        "trggerWarnings": [
+            "Animal abuse",
+            "Neglect"
+        ]
+    },
+    {
+        "filename": "Faces_364_v.jpg",
+        "description": "A child who has sustained an injury, resulting in the loss of their facial skin.",
+        "brief": "A facial injury.",
+        "trggerWarnings": [
+            "Injury",
+            "Disfigurement",
+            "Child harm"
+        ]
+    },
+    {
+        "filename": "People_218_v.jpg",
+        "description": "A person receives treatment for a severe burn on their hand.",
+        "brief": "Burns.",
+        "trggerWarnings": [
+            "Burns",
+            "Medical treatment"
+        ]
+    },
+    {
+        "filename": "People_227_h.jpg",
+        "description": "A child receives treatment for burns to their stomach and thighs.",
+        "brief": "Burns.",
+        "trggerWarnings": [
+            "Burns",
+            "Child injury"
+        ]
+    },
+    {
+        "filename": "People_221_h.jpg",
+        "description": "A person receives treatment for a large laceration below their right eye.",
+        "brief": "A facial injury.",
+        "trggerWarnings": [
+            "Laceration",
+            "Blood"
+        ]
+    },
+    {
+        "filename": "People_246_h.jpg",
+        "description": "An elderly person who has sustained an injury, resulting in a severely swollen black eye.",
+        "brief": "A facial injury.",
+        "trggerWarnings": [
+            "Injury",
+            "Elder abuse (possible)"
+        ]
+    },
+    {
+        "filename": "Animals_077_h.jpg",
+        "description": "An unkept, injured dog who has bloodied wounds on its face.",
+        "brief": "Animal abuse.",
+        "trggerWarnings": [
+            "Animal abuse",
+            "Injury",
+            "Blood"
+        ]
+    },
+    {
+        "filename": "People_205_v.jpg",
+        "description": "A deceased man being pulled out of the water by two men.",
+        "brief": "A deceased person.",
+        "trggerWarnings": [
+            "Drowning",
+            "Death"
+        ]
+    },
+    {
+        "filename": "People_127_h.jpg",
+        "description": "A group of men violently beat up another person who is lying on the ground.",
+        "brief": "Physical violence.",
+        "trggerWarnings": [
+            "Violence",
+            "Assault"
+        ]
+    },
+    {
+        "filename": "People_237_h.jpg",
+        "description": "A piece of skin removed from a person's head, with attached ear, nose, and lip.",
+        "brief": "Removed skin.",
+        "trggerWarnings": [
+            "Mutilation",
+            "Disfigurement"
+        ]
+    },
+    {
+        "filename": "Faces_371_v.jpg",
+        "description": "A young child who has lost their right eye and is now disfigured.",
+        "brief": "A facial injury.",
+        "trggerWarnings": [
+            "Disfigurement",
+            "Child injury"
+        ]
+    },
+    {
+        "filename": "People_226_h.jpg",
+        "description": "The body of an elderly woman who has been hit and killed by a tram.",
+        "brief": "A deceased person.",
+        "trggerWarnings": [
+            "Death",
+            "Accident"
+        ]
+    },
+    {
+        "filename": "Faces_143_v.jpg",
+        "description": "A woman who has sustained extensive burns, resulting in severe facial scarring and disfigurement.",
+        "brief": "Facial burns.",
+        "trggerWarnings": [
+            "Burns",
+            "Disfigurement"
+        ]
+    },
+    {
+        "filename": "Animals_056_h.jpg",
+        "description": "A deceased black cat lying in the dirt with a bloodied ear and bulging eyeball.",
+        "brief": "A deceased animal.",
+        "trggerWarnings": [
+            "Animal death",
+            "Graphic imagery"
+        ]
+    },
+    {
+        "filename": "People_211_v.jpg",
+        "description": "A severely injured hand with exposed tissue and bones on four fingers.",
+        "brief": "A hand injury.",
+        "trggerWarnings": [
+            "Mutilation",
+            "Injury",
+            "Blood"
+        ]
+    },
+    {
+        "filename": "People_220_h.jpg",
+        "description": "A large skin infection covering the left chest area of a woman.",
+        "brief": "A skin infection.",
+        "trggerWarnings": [
+            "Infection",
+            "Medical condition"
+        ]
+    },
+    {
+        "filename": "Objects_125_h.jpg",
+        "description": "A filthy, unflushed toilet containing used toilet paper and brown faecal matter.",
+        "brief": "Faeces.",
+        "trggerWarnings": [
+            "Feces",
+            "Unsanitary conditions"
+        ]
+    },
+    {
+        "filename": "Faces_366_h.jpg",
+        "description": "A man who is receiving stitches after sustaining deep facial cuts.",
+        "brief": "A facial injury.",
+        "trggerWarnings": [
+            "Injury",
+            "Stitches",
+            "Blood"
+        ]
+    },
+    {
+        "filename": "People_222_h.jpg",
+        "description": "A man who is hanging from hooks in the skin of his back.",
+        "brief": "Body injury.",
+        "trggerWarnings": [
+            "Body modification",
+            "Pain",
+            "Blood"
+        ]
+    }
+]
