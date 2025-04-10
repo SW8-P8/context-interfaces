@@ -6,7 +6,8 @@ const Post = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
       <Header />
-      <div className="h-[500px] relative">{children}</div>
+      {/* Post class needed for screenshot feature */}
+      <div className="h-[500px] relative post">{children}</div>
       <Footer />
     </>
   )

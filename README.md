@@ -33,3 +33,8 @@ Test in iframe:
 ```
 
 - Adjust scale accordingly
+
+Capture new screenshots of example context interfaces:
+
+- `npm run screenshots`
+- The will be available at `/screenshots/{baseline | text | ...}.png`
