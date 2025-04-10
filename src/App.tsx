@@ -67,7 +67,7 @@ function App() {
                     <Feed>
                       {Array.from({ length: 30 }, (_, i) => i).map((id, idx) => (
                         <Post key={idx}>
-                          <SentitiveContent imageId={id} contextInterface={contextInterface} />
+                          <SentitiveContent imageId={id + 1} contextInterface={contextInterface} />
                         </Post>
                       ))}
                     </Feed>

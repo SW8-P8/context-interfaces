@@ -1,5 +1,14 @@
 [
     {
+        "filename": "_example.jpg",
+        "description": "This is an example discription of the content of an explicit image.",
+        "brief": "Brief example description.",
+        "trggerWarnings": [
+            "Example warning 1",
+            "Example warning 2"
+        ]
+    },
+    {
         "filename": "People_238_h.jpg",
         "description": "The aftermath of a mass shooting where numerous people lie deceased and bloodied.",
         "brief": "Deceased people.",
