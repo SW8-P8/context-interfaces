@@ -11,7 +11,7 @@ const BlurryImage = ({ imageId, children }: { imageId: number; children: React.R
       style={{ backgroundImage: `url(/original/${context[imageId].filename})` }}
     >
       <div className="absolute top-0 left-0 w-full h-full bg-black/50"></div>
-      <div className="h-full w-full backdrop-blur-lg">{children}</div>
+      <div className="h-full w-full backdrop-blur-xs">{children}</div>
     </div>
   )
 }
