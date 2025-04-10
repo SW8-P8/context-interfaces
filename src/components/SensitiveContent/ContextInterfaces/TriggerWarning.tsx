@@ -13,9 +13,9 @@ const TriggerWarning = ({ imageId, reveal, showWhy }: { imageId: number; reveal:
         </div>
         <div className="flex flex-col h-full justify-center items-center">
           <p className="text-sm font-normal mt-5">Trigger Warnings</p>
-          <div className="flex flex-wrap justify-center items-center  gap-1">
+          <div className="flex flex-wrap justify-center items-center gap-1 w-4/5 mt-2">
             {context[imageId].trggerWarnings.map((warning, idx) => (
-              <div key={idx} className="flex items-center px-2 py-1 bg-white/10 rounded-lg mt-2">
+              <div key={idx} className="flex items-center px-2 py-1 bg-white/10 rounded-lg">
                 <span className="text-xs font-extralight">{warning}</span>
               </div>
             ))}
