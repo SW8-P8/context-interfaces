@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import WhyBoxContent from '../../assets/instagram/why-box.png'
+import WhyBoxContent from '../../assets/instagram/post/why-box.png'
 
 const WhyBox = ({ show }: { show: boolean }) => {
   const [shouldRender, setShouldRender] = useState(show)

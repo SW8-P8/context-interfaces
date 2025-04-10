@@ -1,4 +1,4 @@
-import forYouBar from '../../assets/instagram/for-you.png'
+import forYouBar from '../../assets/instagram/feed/for-you.jpg'
 
 const ForYouBar = () => {
   return <img src={forYouBar} className="w-full pointer-events-none" />

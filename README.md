@@ -11,12 +11,25 @@ Test on mobile:
 Test in iframe:
 
 ```html
-<iframe
-  src="http://localhost:5173/?images=1,2,3,4&context-interface=baseline"
-  style="transform: scale(0.5);"
-  width="1000px"
-  height="1000px"
-/>
+<style>
+  .context-iframe-container {
+    display: flex;
+    justify-content: center;
+    height: 750px;
+  }
+
+  .context-iframe {
+    transform: scale(0.75);
+    transform-origin: top center;
+    margin: 0px -50px;
+    width: 500px;
+    height: 1000px;
+  }
+</style>
+
+<div class="context-iframe-container">
+  <iframe src="http://localhost:5173?images=1,2,3,4,5,6,7&context-interface=baseline" class="context-iframe"></iframe>
+</div>
 ```
 
 - Adjust scale accordingly
