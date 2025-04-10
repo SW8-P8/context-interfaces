@@ -4,8 +4,9 @@
         "description": "The aftermath of a mass shooting where numerous people lie deceased and bloodied.",
         "brief": "Deceased people.",
         "trggerWarnings": [
-            "Gun violence",
-            "Death"
+            "Violence",
+            "Death",
+            "Disturbing imagery"
         ]
     },
     {
@@ -14,7 +15,7 @@
         "brief": "A deceased person.",
         "trggerWarnings": [
             "Death",
-            "Blood"
+            "Disturbing imagery"
         ]
     },
     {
@@ -22,8 +23,9 @@
         "description": "A man points a rifle at a child, who is lying on the ground.",
         "brief": "Gun violence.",
         "trggerWarnings": [
-            "Gun violence",
-            "Child endangerment"
+            "Weapons",
+            "Child abuse",
+            "Disturbing content with threat"
         ]
     },
     {
@@ -31,8 +33,9 @@
         "description": "A large skin infection covers the entire torso of a child.",
         "brief": "A skin infection.",
         "trggerWarnings": [
-            "Infection",
-            "Medical condition"
+            "Medical content",
+            "Human bodies and functions",
+            "Disturbing imagery"
         ]
     },
     {
@@ -40,9 +43,9 @@
         "description": "A bloodied and mutilated hand sticking out from underneath a cover.",
         "brief": "A hand injury.",
         "trggerWarnings": [
-            "Mutilation",
-            "Blood",
-            "Injury"
+            "Death",
+            "Human bodies and functions",
+            "Disturbing imagery"
         ]
     },
     {
@@ -51,7 +54,8 @@
         "brief": "A deceased person.",
         "trggerWarnings": [
             "Death",
-            "Accident"
+            "Accidents",
+            "Self-harm and suicide"
         ]
     },
     {
@@ -59,8 +63,8 @@
         "description": "A person who is receiving treatment for severe burns on their face.",
         "brief": "Facial burns.",
         "trggerWarnings": [
-            "Burns",
-            "Medical treatment"
+            "Medical content",
+            "Human bodies and functions"
         ]
     },
     {
@@ -68,8 +72,8 @@
         "description": "A man who has lost his eyes and nose due to severe facial burns.",
         "brief": "Facial burns.",
         "trggerWarnings": [
-            "Burns",
-            "Disfigurement"
+            "Medical content",
+            "Human bodies and functions"
         ]
     },
     {
@@ -85,7 +89,7 @@
         "description": "An overturned, severely damaged truck and a deceased person covered by a tarp.",
         "brief": "A deceased person.",
         "trggerWarnings": [
-            "Accident",
+            "Accidents",
             "Death"
         ]
     },
@@ -94,8 +98,9 @@
         "description": "A person receives treatment for a dry, swollen, and infected lower leg.",
         "brief": "An infected foot.",
         "trggerWarnings": [
-            "Infection",
-            "Medical condition"
+            "Medical content",
+            "Human bodies and functions",
+            "Disturbing imagery"
         ]
     },
     {
@@ -103,7 +108,7 @@
         "description": "A sick, old, and blind dog lying on a bed in a dirty room.",
         "brief": "Animal abuse.",
         "trggerWarnings": [
-            "Animal abuse",
+            "Animal cruelty",
             "Neglect"
         ]
     },
@@ -112,9 +117,9 @@
         "description": "A child who has sustained an injury, resulting in the loss of their facial skin.",
         "brief": "A facial injury.",
         "trggerWarnings": [
-            "Injury",
-            "Disfigurement",
-            "Child harm"
+            "Human bodies and functions",
+            "Medical content",
+            "Disturbing imagery"
         ]
     },
     {
@@ -122,8 +127,9 @@
         "description": "A person receives treatment for a severe burn on their hand.",
         "brief": "Burns.",
         "trggerWarnings": [
-            "Burns",
-            "Medical treatment"
+            "Human bodies and functions",
+            "Medical content",
+            "Disturbing imagery"
         ]
     },
     {
@@ -131,8 +137,9 @@
         "description": "A child receives treatment for burns to their stomach and thighs.",
         "brief": "Burns.",
         "trggerWarnings": [
-            "Burns",
-            "Child injury"
+            "Human bodies and functions",
+            "Medical content",
+            "Disturbing imagery"
         ]
     },
     {
@@ -140,8 +147,9 @@
         "description": "A person receives treatment for a large laceration below their right eye.",
         "brief": "A facial injury.",
         "trggerWarnings": [
-            "Laceration",
-            "Blood"
+            "Human bodies and functions",
+            "Medical content",
+            "Disturbing imagery"
         ]
     },
     {
@@ -149,8 +157,7 @@
         "description": "An elderly person who has sustained an injury, resulting in a severely swollen black eye.",
         "brief": "A facial injury.",
         "trggerWarnings": [
-            "Injury",
-            "Elder abuse (possible)"
+            "Human bodies and functions"
         ]
     },
     {
@@ -158,9 +165,8 @@
         "description": "An unkept, injured dog who has bloodied wounds on its face.",
         "brief": "Animal abuse.",
         "trggerWarnings": [
-            "Animal abuse",
-            "Injury",
-            "Blood"
+            "Animal cruelty",
+            "Neglect"
         ]
     },
     {
@@ -168,7 +174,7 @@
         "description": "A deceased man being pulled out of the water by two men.",
         "brief": "A deceased person.",
         "trggerWarnings": [
-            "Drowning",
+            "Human bodies and functions",
             "Death"
         ]
     },
