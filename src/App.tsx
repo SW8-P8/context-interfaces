@@ -34,7 +34,7 @@ function App() {
 
   if (import.meta.env.PROD) {
     return (
-      <div className="flex w-screen h-screen justify-center items-center overflow-y-hidden select-none">
+      <div className="flex h-screen justify-center items-center overflow-y-hidden select-none">
         {!isMobile && <TouchCursor />}
         <Phone showBorder={!isMobile}>
           <Feed>

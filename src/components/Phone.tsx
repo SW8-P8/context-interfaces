@@ -2,8 +2,11 @@ import iphoneFrame from '../assets/device.png'
 
 const Phone = ({ showBorder: showBorder, children }: { showBorder: boolean; children: React.ReactNode }) => {
   if (!showBorder) {
+    const h = import.meta.env.PROD ? '750px' : '879px'
     return (
-      <div className="flex no-scrollbar border-2 border-gray-300 w-[433px] h-[879px] overflow-y-auto">{children}</div>
+      <div className="flex no-scrollbar border-2 border-gray-300 w-[433px] overflow-y-auto" style={{ height: h }}>
+        {children}
+      </div>
     )
   }
 
