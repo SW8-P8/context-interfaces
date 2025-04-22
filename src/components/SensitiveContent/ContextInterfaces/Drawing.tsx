@@ -1,4 +1,4 @@
-import context from '../../../assets/context.json'
+import { context } from '../../../data/context.ts'
 import ShowWhyBtn from '../ShowWhyBtn'
 
 const Drawing = ({ imageId, reveal, showWhy }: { imageId: number; reveal: () => void; showWhy: () => void }) => {

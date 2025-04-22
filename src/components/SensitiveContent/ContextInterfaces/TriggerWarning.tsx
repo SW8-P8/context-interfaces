@@ -1,7 +1,7 @@
 import BlurryImage from '../BlurryImage'
 import ShowPhotoBtn from '../SeePhotoBtn'
 import SensitiveWarning from '../SensitiveWarning'
-import context from '../../../assets/context.json'
+import { context } from '../../../data/context.ts'
 
 const TriggerWarning = ({ imageId, reveal, showWhy }: { imageId: number; reveal: () => void; showWhy: () => void }) => {
   return (

@@ -25,6 +25,16 @@ Test in iframe:
     width: 500px;
     height: 1000px;
   }
+
+  @media (max-width: 768px) {
+    .context-iframe-container {
+      height: 600px;
+    }
+
+    .context-iframe {
+      height: 800px;
+    }
+  }
 </style>
 
 <div class="context-iframe-container">

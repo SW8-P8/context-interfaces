@@ -1,4 +1,4 @@
-import context from '../../assets/context.json'
+import { context } from '../../data/context.ts'
 
 const BlurryImage = ({ imageId, children }: { imageId: number; children: React.ReactNode }) => {
   if (!context[imageId]) {
