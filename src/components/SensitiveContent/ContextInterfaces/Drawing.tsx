@@ -12,7 +12,7 @@ const Drawing = ({ imageId, reveal, showWhy }: { imageId: number; reveal: () => 
       style={{ backgroundImage: `url(/drawing/${context[imageId].filename})` }}
     >
       <div className="flex flex-col w-full h-full text-white">
-        <div className="flex flex-col justify-center items-center bg-black/70 px-2 backdrop-blur-sm py-3 rounded-2xl m-2 space-y-2">
+        <div className="flex flex-col justify-center items-center bg-black/50 px-2 backdrop-blur-sm py-3 rounded-2xl m-2 space-y-2">
           <div className="flex flex-col items-center w-4/5">
             <p className="text-sm font-normal">Sensitive Content</p>
             <p className="text-xs font-extralight text-center">
@@ -23,7 +23,7 @@ const Drawing = ({ imageId, reveal, showWhy }: { imageId: number; reveal: () => 
           <ShowWhyBtn showWhy={showWhy} />
         </div>
         <div className="flex h-full"></div>
-        <div className="flex flex-col w-full justify-center items-center bg-black/70  px-2 backdrop-blur-sm">
+        <div className="flex flex-col w-full justify-center items-center bg-black/50  px-2 backdrop-blur-sm">
           <button onClick={reveal} className="p-1 px-2 hover:bg-white/40 rounded-sm my-2 text-white font-light text-sm">
             See Photo
           </button>
