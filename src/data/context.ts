@@ -7,13 +7,14 @@ export interface Context {
   trggerWarnings: string[]
 }
 
+const exampleContext: Context = {
+  filename: '_example.jpg',
+  description: 'This is an example discription of the content of an explicit image.',
+  brief: 'Brief example description.',
+  trggerWarnings: ['Example warning 1', 'Example warning 2'],
+}
+
 const originalContext: Context[] = [
-  {
-    filename: '_example.jpg',
-    description: 'This is an example discription of the content of an explicit image.',
-    brief: 'Brief example description.',
-    trggerWarnings: ['Example warning 1', 'Example warning 2'],
-  },
   {
     filename: 'People_238_h.jpg',
     description: 'The aftermath of a mass shooting where numerous people lie deceased and bloodied.',
@@ -196,4 +197,4 @@ const originalContext: Context[] = [
   },
 ]
 
-export const context = shuffleWithSeed(originalContext, 'sensitive-content')
+export const context = [exampleContext, ...shuffleWithSeed(originalContext, 'sensitive-content')]
